@@ -3,6 +3,7 @@
   --bg-color2: #282a33;
   --bright-white: #ffffff;
   --white: #ece6e6;
+  --off-white: #fffaf0;
   --silver: #bbbbbb;
   --gray: #5c5e68;
   --blue: #9ecdff;
@@ -43,7 +44,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  color: var(--red);
+  color: var(--bright-white);
   text-shadow: #12151f 1px 1px;
 }
 
@@ -67,9 +68,8 @@ b {
 }
 
 .quote {
-  color: var(--bright-white);
+  color: var(--off-white);
   font-style: italic;
-  font-size: 1.2rem;
   margin-top: 1rem;
   text-shadow: #141414 1px 1px;
   letter-spacing: 1.2px;
